@@ -65,24 +65,32 @@ h1 {
 	grid-area: a;
 	background: #F8AD6A;
 	padding: 2rem;
+	box-shadow: rgba(0,0,0, 0.1) 0 0 20px;
+	border-radius: 5px;
 }
 
 .b {
 	grid-area: b;
 	background: #F8AD6A;
 	padding: 2rem;
+	box-shadow: rgba(0,0,0, 0.1) 0 0 20px;
+	border-radius: 5px;
 }
 
 .c{
 	grid-area: c;
 	background: #F8AD6A;
 	padding: 2rem;
+	box-shadow: rgba(0,0,0, 0.1) 0 0 20px;
+	border-radius: 5px;
 }
 
 .d {
 	grid-area: d;
 	background: #F8AD6A;
 	padding: 2rem;
+	box-shadow: rgba(0,0,0, 0.1) 0 0 20px;
+	border-radius: 5px;
 }
 
 footer {
