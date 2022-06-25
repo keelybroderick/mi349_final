@@ -118,19 +118,12 @@ dt {
 
 .i {
 	grid-area: i;
-	background: url('../images/new.png');
-	background-size: cover;
-	background-position: center;
-}
-
-.j {
-	grid-area: j;
 	background: grey;
 	padding: 2rem;
 }
 
 footer {
-	grid-area: k;
+	grid-area: j;
 	margin-top: 2rem;
 	background: darkgrey;
 	color: lightgrey;
