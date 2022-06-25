@@ -45,38 +45,36 @@ ul a:hover {
 	"e e e e"
 }
 
-.text {
-	font-family: 'Roboto', sans-serif;
-	margin-top: 0;
-	margin-bottom: 2rem;
-}
-
-.title {
+h1 {
 	font-size: 2rem;
 	font-family:'Times New Roman', Times, serif;
 	margin: 0;
 	padding: 0;
 }
 
-.info1 {
+.showing {
+	list-style: circle;
+}
+
+.a {
 	grid-area: a;
 	background: gray;
 	padding: 2rem;
 }
 
-.info2 {
+.b {
 	grid-area: b;
 	background: gray;
 	padding: 2rem;
 }
 
-.info3 {
+.c{
 	grid-area: c;
 	background: gray;
 	padding: 2rem;
 }
 
-.info4 {
+.d {
 	grid-area: d;
 	background: gray;
 	padding: 2rem;
