@@ -46,8 +46,8 @@ ul a:hover {
 	grid-template-areas:
 	"a b c d"
 	"e f g h"
-	"i i i j"
-	"k k k k"
+	"i i i i"
+	"j j j j"
 }
 
 h1 {
@@ -149,7 +149,7 @@ a#selected {
 
 #container {
 	grid-template-columns: 1fr;
-	grid-template-rows: 20% 20% 20% 20% 20% 20% 20% 20% 20% 20% 8%;
+	grid-template-rows: 20% 20% 20% 20% 20% 20% 20% 20% 20% 8%;
 	grid-template-areas:
 		"a"
 		"b"
@@ -161,7 +161,6 @@ a#selected {
 		"h"
 		"i"
 		"j"
-		"k"
 }
 
 img {
