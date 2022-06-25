@@ -69,75 +69,67 @@ dt {
 }
 
 .a {
-	grid-area: a1;
+	grid-area: a;
 	background-size: cover;
 	background-position: center;
 }
 .b {
-	grid-area: a2;
+	grid-area: b;
 	background: grey;
 	padding: 2rem;
 }
 .c {
-	grid-area: a3;
+	grid-area: c;
 	background-size: cover;
 	background-position: center;
 }
 .d {
-	grid-area: a4;
+	grid-area: d;
 	background: grey;
 	padding: 2rem;
 }
 
 .e {
-	grid-area: b;
+	grid-area: e;
 	background: url('../images/old.png');
 	background-size: cover;
 	background-position: center;
 }
 
 .f {
-	grid-area: c;
+	grid-area: f;
 	background: grey;
 	padding: 2rem;
 }
 
 .g {
-	grid-area: d;
+	grid-area: g;
 	background: url('../images/sugercane.jpg');
 	background-size: cover;
 	background-position: center;
 }
 
 .h {
-	grid-area: e;
+	grid-area: h;
 	background: grey;
 	padding: 2rem;
 }
 
 .i {
-	grid-area: f;
+	grid-area: i;
 	background: url('../images/new.png');
 	background-size: cover;
 	background-position: center;
 }
 
 .j {
-	grid-area: g;
+	grid-area: j;
 	background: grey;
 	padding: 2rem;
 }
 
-
-.k {
-	grid-area: h;
-	background: url('../images/georgia.jpg');
-	background-size: cover;
-	background-position: center;
-}
-
 footer {
-	grid-area: i;
+	grid-area: k;
 	margin-top: 2rem;
 	background: darkgrey;
 	color: lightgrey;
