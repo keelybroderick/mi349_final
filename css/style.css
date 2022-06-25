@@ -1,6 +1,6 @@
 html {
 	font-family:'Times New Roman', Times, serif;
-	color: lightgrey;
+	color: #F7F0D5;
 }
 
 body {
@@ -22,8 +22,8 @@ ul {
 }
 
 ul a {
-	background: darkgrey;
-	color: lightgrey;
+	background: #44978D;
+	color: white;
 	font-size: 1.6rem;
 	display: block;
 	text-decoration: none;
@@ -32,8 +32,8 @@ ul a {
 }
 
 ul a:hover {
-	background: lightgrey;
-	color: grey;
+	background: #274D5A;
+	color: white;
 	transition: background 0.5s ease-in-out;
 }
 
@@ -76,7 +76,7 @@ dt {
 }
 .b {
 	grid-area: b;
-	background: grey;
+	background: #F8AD6A;
 	padding: 2rem;
 }
 .c {
@@ -86,7 +86,7 @@ dt {
 }
 .d {
 	grid-area: d;
-	background: grey;
+	background: #F8AD6A;
 	padding: 2rem;
 }
 
@@ -99,7 +99,7 @@ dt {
 
 .f {
 	grid-area: f;
-	background: grey;
+	background: #F8AD6A;
 	padding: 2rem;
 }
 
@@ -112,20 +112,20 @@ dt {
 
 .h {
 	grid-area: h;
-	background: grey;
+	background: #F8AD6A;
 	padding: 2rem;
 }
 
 .i {
 	grid-area: i;
-	background: grey;
+	background: #D46D4D;
 	padding: 2rem;
 }
 
 footer {
 	grid-area: j;
 	margin-top: 2rem;
-	background: darkgrey;
+	background: #44978D;
 	color: lightgrey;
 	text-align: center;
 	margin-bottom: 2rem;
