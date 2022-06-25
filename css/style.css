@@ -40,7 +40,7 @@ ul a:hover {
 
 a#selected {
 	color: white;
-  }
+}
 
 #container {
 	display: grid;
@@ -83,6 +83,8 @@ dt {
 	grid-area: b;
 	background: #F8AD6A;
 	padding: 2rem;
+	box-shadow: rgba(0,0,0, 0.1) 0 0 20px;
+	border-radius: 5px;
 }
 .c {
 	grid-area: c;
@@ -93,6 +95,8 @@ dt {
 	grid-area: d;
 	background: #F8AD6A;
 	padding: 2rem;
+	box-shadow: rgba(0,0,0, 0.1) 0 0 20px;
+	border-radius: 5px;
 }
 
 .e {
@@ -106,6 +110,8 @@ dt {
 	grid-area: f;
 	background: #F8AD6A;
 	padding: 2rem;
+	box-shadow: rgba(0,0,0, 0.1) 0 0 20px;
+	border-radius: 5px;
 }
 
 .g {
@@ -119,19 +125,22 @@ dt {
 	grid-area: h;
 	background: #F8AD6A;
 	padding: 2rem;
+	box-shadow: rgba(0,0,0, 0.1) 0 0 20px;
+	border-radius: 5px;
 }
 
 .i {
 	grid-area: i;
 	background: #D46D4D;
 	padding: 2rem;
+	box-shadow: rgba(0,0,0, 0.1) 0 0 20px;
 }
 
 footer {
 	grid-area: j;
 	margin-top: 2rem;
 	background: #44978D;
-	color: lightgrey;
+	color: white;
 	text-align: center;
 	margin-bottom: 2rem;
 }
