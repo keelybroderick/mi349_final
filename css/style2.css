@@ -1,24 +1,10 @@
-/* CSS GRID WESBITE */
-
-:root {
-	--light: #fff;
-	--semi: #fcc7c3;
-	--medium: #f8819b;
-	--dark: #fe001a;
-}
-
 html {
 	font-family:'Times New Roman', Times, serif;
-	color: var(--light);
+	color: lightgrey;
 }
 
 body {
 	margin: 4% 5%; /*tb -- lr*/
-}
-
-img {
-	max-width: 100%;
-	max-height: 100%;
 }
 
 ul {
@@ -30,8 +16,8 @@ ul {
 }
 
 ul a {
-	background: var(--dark);
-	color: var(--light);
+	background: grey;
+	color: lightgrey;
 	font-size: 1.6rem;
 	display: block;
 	text-decoration: none;
@@ -40,8 +26,8 @@ ul a {
 }
 
 ul a:hover {
-	background: var(--light);
-	color: var(--medium);
+	background: lightgrey;
+	color: grey;
 	transition: background 0.5s ease-in-out;
 }
 
@@ -52,11 +38,11 @@ ul a:hover {
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: 30% 30% 30% 30% 8%;
 	grid-template-areas:
-	"a a a c"
-	"b b b c"
-	"d d d f"
-	"e e e f"
-	"g g g g"
+	"a a a a"
+	"b b b b"
+	"c c c c"
+	"d d d d"
+	"e e e e"
 }
 
 .text {
@@ -74,76 +60,55 @@ ul a:hover {
 
 .info1 {
 	grid-area: a;
-	background: var(--semi);
+	background: gray;
 	padding: 2rem;
 }
 
 .info2 {
 	grid-area: b;
-	background: var(--semi);
+	background: gray;
 	padding: 2rem;
 }
 
 .info3 {
 	grid-area: c;
-	background: url('../images/cake.jpg');
-	background-size: cover;
-	background-position: center;
+	background: gray;
+	padding: 2rem;
 }
 
 .info4 {
 	grid-area: d;
-	background: var(--semi);
+	background: gray;
 	padding: 2rem;
-}
-
-.info5 {
-	grid-area: e;
-	background: var(--semi);
-	padding: 2rem;
-}
-
-.info6 {
-	grid-area: f;
-	background: url('../images/chicken.jpg');
-	background-size: cover;
-	background-position: center;
 }
 
 footer {
-	grid-area: g;
+	grid-area: e;
 	margin-top: 2rem;
-	background: var(--dark);
-	color: var(--light);
+	background: darkgrey;
+	color: lightgrey;
 	text-align: center;
 	margin-bottom: 2rem;
 }
 
 a#selected {
-  color: var(--medium);
+  color: darkgrey;
 }
 
 @media(max-width: 700px){
-
 	ul {
 		grid-template-columns: 1fr;
 	}
 
 #container {
 	grid-template-columns: 1fr;
-	grid-template-rows: 20% 20% 20% 20% 20% 20% 8%;
+	grid-template-rows: 20% 20% 20% 20% 8%;
 	grid-template-areas:
 		"a"
 		"b"
 		"c"
 		"d"
 		"e"
-		"f"
-		"g"
-}
-
-img {
-	width: 100%;
 }
 
 }
