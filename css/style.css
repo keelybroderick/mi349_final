@@ -44,106 +44,106 @@ ul a:hover {
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: 30% 30% 30% 30% 8%;
 	grid-template-areas:
-	"a1 a2 a3 a4"
-	"c d e f"
-	"g g g h"
-	"i j j j"
-	"k k k k"
+	"a b c d"
+	"e f g h"
+	"i i i j"
+	"k l l l"
+	"m m m m"
 }
 
-.text {
-	font-family: 'Roboto', sans-serif;
-	margin-top: 0;
-	margin-bottom: 2rem;
-}
-
-.title {
+h1 {
 	font-size: 2rem;
 	font-family:'Times New Roman', Times, serif;
 	margin: 0;
 	padding: 0;
 }
 
-.a1 {
+h2 {
+	font-family: 'Roboto', sans-serif;
+	margin-top: 0;
+	margin-bottom: 2rem;
+}
+
+dt {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: underline;
+}
+
+.a {
 	grid-area: a1;
 	background-size: cover;
 	background-position: center;
 }
-.a2 {
+.b {
 	grid-area: a2;
 	background: grey;
 	padding: 2rem;
 }
-.a3 {
+.c {
 	grid-area: a3;
 	background-size: cover;
 	background-position: center;
 }
-.a4 {
+.d {
 	grid-area: a4;
 	background: grey;
 	padding: 2rem;
 }
 
-.info2 {
-	grid-area: c;
+.e {
+	grid-area: b;
 	background: url('../images/old.png');
 	background-size: cover;
 	background-position: center;
 }
 
-.info3 {
-	grid-area: d;
+.f {
+	grid-area: c;
 	background: grey;
 	padding: 2rem;
 }
 
-.info4 {
-	grid-area: g;
+.g {
+	grid-area: d;
 	background: url('../images/sugercane.jpg');
 	background-size: cover;
 	background-position: center;
 }
 
-.info5 {
-	grid-area: f;
+.h {
+	grid-area: e;
 	background: grey;
 	padding: 2rem;
 }
 
-.info6 {
-	grid-area: e;
+.i {
+	grid-area: f;
 	background: url('../images/new.png');
 	background-size: cover;
 	background-position: center;
 }
 
-.info7 {
+.j {
+	grid-area: g;
+	background: grey;
+	padding: 2rem;
+}
+
+
+.k {
 	grid-area: h;
-	background: grey;
-	padding: 2rem;
-}
-
-.info8 {
-	grid-area: i;
-	background: grey;
-	padding: 2rem;
-}
-
-.info9 {
-	grid-area: j;
 	background: url('../images/georgia.jpg');
 	background-size: cover;
 	background-position: center;
 }
 
 footer {
-	grid-area: k;
+	grid-area: i;
 	margin-top: 2rem;
 	background: darkgrey;
 	color: lightgrey;
 	text-align: center;
-margin-bottom: 2rem;
+	margin-bottom: 2rem;
 }
 
 a#selected {
@@ -157,20 +157,18 @@ a#selected {
 
 #container {
 	grid-template-columns: 1fr;
-	grid-template-rows: 20% 20% 20% 20% 20% 20% 20% 20% 20% 20% 20% 20% 8%;
+	grid-template-rows: 20% 20% 20% 20% 20% 20% 20% 20% 20% 20% 8%;
 	grid-template-areas:
-		"a1"
-		"a2"
-		"a3"
-		"a4"
+		"a"
+		"b"
 		"c"
 		"d"
 		"e"
 		"f"
 		"g"
 		"h"
-		"j"
 		"i"
+		"j"
 		"k"
 }
 
